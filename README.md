@@ -16,6 +16,8 @@ The cleaning phase of this task was extensive. A lot of data was missing, some d
 However, as this is lead data, it was important to keep in mind not to drop or remove data that could be potential leads. 
 The 'work around' or alternative, was for to flag these numbers that look 'odd' and to come back to them at a later stage instead of deleting them completely.
 
+Check the [Jupyter Notebok]()
+
 ### Task 2: Database Operations, schema creation, and data insertion
 This phase involved:
   - Connecting to the PostgreSQL database using psycopg2 with SSL and provided credentials
