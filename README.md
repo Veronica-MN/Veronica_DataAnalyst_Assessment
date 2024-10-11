@@ -20,6 +20,29 @@ The 'work around' or alternative, was for to flag these numbers that look 'odd' 
 This phase involved:
   - Connecting to the PostgreSQL database using psycopg2 with SSL and provided credentials
   - Designed a database schema and created the **lead_data table** with the necessary columns **(firma, street, plz, city, country, country_code, local_number)**
+
+```sql
+cursor = conn.cursor()
+
+
+create_table_query = """
+CREATE TABLE IF NOT EXISTS lead_data (
+    id SERIAL PRIMARY KEY,
+    firma VARCHAR(255),
+    street VARCHAR(255),
+    plz VARCHAR(10),
+    city VARCHAR(100),
+    country VARCHAR(5),
+    country_code VARCHAR(10),
+    local_number VARCHAR(50),
+    long_number_flag VARCHAR(5)
+);
+"""
+
+cursor.execute(create_table_query)
+conn.commit()
+
+
   - Used to_sql() to load the cleaned and merged dataset into PostgreSQL, verifying the row count to ensure the data was correctly inserted
 ​
 I wanted to have a look, to see what the actual table looks like in Postgresql. So i downloaded and installed **pgAdmin** to do so:
