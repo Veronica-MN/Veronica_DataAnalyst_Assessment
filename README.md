@@ -41,6 +41,7 @@ CREATE TABLE IF NOT EXISTS lead_data (
 
 cursor.execute(create_table_query)
 conn.commit()
+```
 
 
   - Used to_sql() to load the cleaned and merged dataset into PostgreSQL, verifying the row count to ensure the data was correctly inserted
