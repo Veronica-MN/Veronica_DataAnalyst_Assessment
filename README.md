@@ -24,7 +24,7 @@ This phase involved:
 ​
 I wanted to have a look, to see what the actual table looks like in Postgresql. So i downloaded and installed **pgAdmin** to do so:
 
-![lead data table](images/lead_data_table.png)
+![lead data table](lead_data_table.png)
 
 
 ### Task 3: Data Enhancement, using APIs to retrieve missing information like phone numbers
