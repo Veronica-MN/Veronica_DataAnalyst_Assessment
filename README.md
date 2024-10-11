@@ -52,6 +52,8 @@ I wanted to have a look, to see what the actual table looks like in Postgresql. 
 
 ![lead data table](lead_data_table.png)
 
+Check [Jupyter Notebook]()
+
 
 ### Task 3: Data Enhancement, using APIs to retrieve missing information like phone numbers
 
