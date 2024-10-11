@@ -69,6 +69,12 @@ I wanted to find out:
   - Whether there are any data quality issues, such as missing or inconsistent information.
   - Insights into the overall structure and completeness of the data
 
+The insights gathered showed that Germany dominated with the largest numbers of leads compared to Austria and Switzerland.
+
+![Lead Distribution by Country](distribution.png)
+
+Check the [Jupyter Notebook](https://github.com/Veronica-MN/Veronica_DataAnalyst_Assessment/blob/main/Task4_Analysis_Reporting.ipynb)
+
 
 # How to Run the Code
 
