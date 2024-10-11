@@ -16,7 +16,7 @@ The cleaning phase of this task was extensive. A lot of data was missing, some d
 However, as this is lead data, it was important to keep in mind not to drop or remove data that could be potential leads. 
 The 'work around' or alternative, was for to flag these numbers that look 'odd' and to come back to them at a later stage instead of deleting them completely.
 
-Check the [Jupyter Notebok]()
+Check the [Jupyter Notebok](https://github.com/Veronica-MN/Veronica_DataAnalyst_Assessment/blob/main/Task1_Data_Cleaning.ipynb)
 
 ### Task 2: Database Operations, schema creation, and data insertion
 This phase involved:
