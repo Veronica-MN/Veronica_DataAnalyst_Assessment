@@ -11,8 +11,21 @@ The data in this Analysis with Python project includes one Excel file with multi
 
 
 ### Task 1: Data Cleaning process, handling duplicates, and missing values
+The cleaning phase of this task was extensive. A lot of data was missing, some data was incorrect, most of the phone numbers picked at random did not match the Company name, there were phone numbers that were too long to be actual phone numbers. 
+
+However, as this is lead data, it was important to keep in mind not to drop or remove data that could be potential leads. 
+The 'work around' or alternative, was for to flag these numbers that look 'odd' and to come back to them at a later stage instead of deleting them completely.
 
 ### Task 2: Database Operations, schema creation, and data insertion
+This phase involved:
+  - Connecting to the PostgreSQL database using psycopg2 with SSL and provided credentials
+  - Designed a database schema and created the **lead_data table** with the necessary columns **(firma, street, plz, city, country, country_code, local_number)**
+  - Used to_sql() to load the cleaned and merged dataset into PostgreSQL, verifying the row count to ensure the data was correctly inserted
+​
+I wanted to have a look, to see what the actual table looks like in Postgresql. So i downloaded and installed **pgAdmin** to do so:
+
+![lead data table](images/lead_data_table.png)
+
 
 ### Task 3: Data Enhancement, using APIs to retrieve missing information like phone numbers
 
