@@ -56,9 +56,18 @@ Check [Jupyter Notebook](https://github.com/Veronica-MN/Veronica_DataAnalyst_Ass
 
 
 ### Task 3: Data Enhancement, using APIs to retrieve missing information like phone numbers
+Here i filtered the dataset to find Businesses with the missing phone numbers. Initially, Web Scraping was the choice of approach in order to retrieve missing phone numbers. However,there were several challenges i faced, I decided to go for API. 
+
+I made use of the **Google Places API**, a reliable alternative for gathering business information, such as phone numbers.
+
+Check Jupyter Notebook for the [Web Scraping Limitations](https://github.com/Veronica-MN/Veronica_DataAnalyst_Assessment/blob/main/Task3_Data_Enhancement.ipynb) I encoutered and the ease of Using APIs.
 
 ### Task 4: Exploratory Data Analysis and Insights 
-
+The last phase of the project, I performed Exploratory Data Analyis to help me to identify key insights, and create visualizations.
+I wanted to find out:
+  - How leads are distributed across different countries.
+  - Whether there are any data quality issues, such as missing or inconsistent information.
+  - Insights into the overall structure and completeness of the data
 
 
 # How to Run the Code
