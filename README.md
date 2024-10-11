@@ -52,7 +52,7 @@ I wanted to have a look, to see what the actual table looks like in Postgresql. 
 
 ![lead data table](lead_data_table.png)
 
-Check [Jupyter Notebook]()
+Check [Jupyter Notebook](https://github.com/Veronica-MN/Veronica_DataAnalyst_Assessment/blob/main/Task2_Database_Operations.ipynb)
 
 
 ### Task 3: Data Enhancement, using APIs to retrieve missing information like phone numbers
