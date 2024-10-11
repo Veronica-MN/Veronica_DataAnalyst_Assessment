@@ -88,7 +88,9 @@ Check the [Jupyter Notebook](https://github.com/Veronica-MN/Veronica_DataAnalyst
 
 
 # How to Run the Code
-
+  1. Clone Repo
+  2. Install dependencies: **pip install -r requirements.txt**
+  3. Open jupyter notebooks
 
 # Dependencies 
 
@@ -98,6 +100,9 @@ Check the [Jupyter Notebook](https://github.com/Veronica-MN/Veronica_DataAnalyst
 - SQLAlchemy
 - psycopg2
 - requests (for APIs)
+
+# SQL Queries
+I used SQLAlchemy to automatically work with SQL queries. It's a Python library used for database interactions. So in this particular instance, i did not need manual SQL queries.
 
 # Report
 A report on this Analysis can be found [here](https://medium.com/@veronica_v/analysis-of-lead-data-and-recommendations-d08dbe4807ca)
