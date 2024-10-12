@@ -65,6 +65,20 @@ I wanted to have a look, to see what the actual table looks like in Postgresql. 
 
 Check [Jupyter Notebook](https://github.com/Veronica-MN/Veronica_DataAnalyst_Assessment/blob/main/Task2_Database_Operations.ipynb)
 
+## How to Connect to Database
+The database connection credentials (e.g., password) have been replaced with placeholders for security reasons.
+
+To connect to the database, replace the placeholder `{password}` with your credentials 
+
+```
+connection = psycopg2.connect(
+    host="mgmt-dev-movido-c44b.l.aivencloud.com",
+    port=25680,
+    database="9f96dc99-95c3-4645-833d-ca0955f50ea6",
+    user="veronica_exam",
+    password="{your_password_here}"
+)
+```
 
 ### Task 3: Data Enhancement, using APIs to retrieve missing information like phone numbers
 Here i filtered the dataset to find Businesses with the missing phone numbers. Initially, Web Scraping was the choice of approach in order to retrieve missing phone numbers. However,there were several challenges i faced, I decided to go for API. 
