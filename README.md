@@ -120,3 +120,10 @@ I used SQLAlchemy to automatically work with SQL queries. It's a Python library 
 
 # Report
 A report on this Analysis can be found [here](https://medium.com/@veronica_v/analysis-of-lead-data-and-recommendations-d08dbe4807ca)
+
+# Sources
+- Python for Data Analysis
+- Google Places API
+- SQLAlchemy Documentation
+- Pandas Documentation
+- Stack overflow
